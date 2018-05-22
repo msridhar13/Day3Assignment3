@@ -1,0 +1,10 @@
+def longWord(lgWord):
+    maxlen=0
+    
+    for i in lgWord:
+        if(len(i)>maxlen):
+            maxlen=len(i)
+            longestword=i
+    return longestword
+
+print(find_longest_word(["oracleo", "dotnetnew", "java"]))
